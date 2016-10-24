@@ -1,4 +1,19 @@
 # React Curse and Redux
+
+Getting Started
+---------------
+
+For installation instructions.
+
+$ Download and install [NodeJs](https://nodejs.org/en/)
+
+```
+Run in console: 
+$ npm install
+$ npm start
+```
+
+
 Learn React and Redux
 
     * RCU01 - Creating Web Server.
