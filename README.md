@@ -8,3 +8,4 @@ Learn React and Redux
     * RCU05 - Use Events & Callbacks
     * RCU06 - Component State
     * RCU07 - Nested Components: Part 1
+    * RCU08 - Nested Components: Part 2
