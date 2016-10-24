@@ -8,7 +8,7 @@ For installation instructions.
 $ Download and install [NodeJs](https://nodejs.org/en/)
 
 ```
-Run in console: 
+Run in console:
 $ npm install
 $ npm start
 ```
@@ -24,3 +24,4 @@ Learn React and Redux
     * RCU06 - Component State
     * RCU07 - Nested Components: Part 1
     * RCU08 - Nested Components: Part 2
+    * RCU09 - Section Challenge
