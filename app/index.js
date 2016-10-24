@@ -1,6 +1,28 @@
 import React from 'react'
 import ReactDOM  from 'react-dom'
 
+var GreeteMessage = React.createClass({
+  render: function() {
+    return (
+      <div>
+        <h1>Some H1</h1>
+        <p>Some paragraph</p>
+      </div>
+    );
+  }
+});
+
+var GreeterForm = React.createClass({
+    render: function () {
+      return (
+        <form>
+          <input type="text" ref="name"/>
+          <button>Set Name</button>
+        </form>
+      );
+    }
+});
+
 var Greater = React.createClass({
   getDefaultProps: function() {
     return {
@@ -33,10 +55,12 @@ var Greater = React.createClass({
       <div>
         <h1>Hello {name}!</h1>
         <p>{message + '!!'}</p>
+        <GreeteMessage/>
         <form onSubmit={this.onButtonClick}>
           <input type="text" ref="name"/>
           <button>Set Name</button>
         </form>
+        <GreeterForm/>
       </div>
     );
   }
