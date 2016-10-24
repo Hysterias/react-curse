@@ -6,3 +6,4 @@ Learn React and Redux
     * RCU03 - First Component and webpack
     * RCU04 - Component Properties
     * RCU05 - Use Events & Callbacks
+    * RCU06 - Component State
