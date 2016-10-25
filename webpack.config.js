@@ -6,18 +6,24 @@ var HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
 });
 
 module.exports = {
-  entry: [
-    'babel-polyfill',
-    './app/index.js'
-  ],
+  entry: './app/app.jsx',
   output: {
     path: __dirname + '/dist',
-    filename: "index_bundle.js"
+    filename: 'bundle.js'
+  },
+  resolve: {
+    extensions: ['', '.js', '.jsx']
   },
   module: {
     loaders: [
-      {test: /\.js$/, exclude: /node_modules/, loader: "babel-loader"},
-      { test: /\.css$/, loader: "style-loader!css-loader" }
+      {
+        loader: 'babel-loader',
+        query: {
+          presets: ['react', 'es2015']
+        },
+        test: /\.jsx?$/,
+        exclude: /(node_modules|bower_components)/
+      }
     ]
   },
   plugins: [HTMLWebpackPluginConfig]
