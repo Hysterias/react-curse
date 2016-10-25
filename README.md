@@ -27,3 +27,4 @@ Learn React and Redux
     * RCU09 - Section Challenge
     * RCU10 - Webpack config, babel & JSX Support
     * RCU11 - Refactoring Components
+    * RCU12 - Webpack: Custom Package Names
