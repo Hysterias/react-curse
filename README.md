@@ -26,3 +26,4 @@ Learn React and Redux
     * RCU08 - Nested Components: Part 2
     * RCU09 - Section Challenge
     * RCU10 - Webpack config, babel & JSX Support
+    * RCU11 - Refactoring Components
